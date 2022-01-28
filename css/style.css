@@ -1,0 +1,152 @@
+/******************** ELEMENT SELECTOR ********************/
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: rgb(61, 58, 58);
+    line-height: 2;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+    color: #FFBF86;
+}
+
+h2{
+    font-family: 'Asap', sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    color: #FFBF86;
+}
+
+h3{
+    font-family: 'Asap', sans-serif;
+    color: #be9470;
+}
+
+hr{
+    border-top: dotted 5px #D3E4CD;
+    height: 0px;
+    width: 5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    position: relative;
+    background-color: #CEE5D0;
+    padding-top: 20px;
+}
+
+/******************** CLASS SELECTOR ********************/
+
+.top-container{
+    background-color: #CEE5D0;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+    width: 150px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 250px;
+    top: 50px;
+    width: 150px;
+}
+
+.bottom-container{
+    color: #be9470;
+    background-color: #CEE5D0;
+    padding: 30px 0;
+}
+
+.bottom-container a{
+    color: #be9470;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+
+}
+
+.c-skill{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.p-skill{
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile-pic{
+    width: 150px;
+}
+
+.profile{
+    width: 50%;
+    margin: 100px auto;
+}
+
+.btn{
+    border-radius: 8px;
+    color: #ffffff;
+    background-image: -webkit-linear-gradient(top, #FFBF86, #be9470);
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+}
+
+.btn:hover{
+    color: #ffffff;
+    background-image: -webkit-linear-gradient(top, #FFC286, #B4C6A6);
+}
+
+.contact-me{
+    width: 50%;
+    margin: 100px auto;
+
+}
+
+.hello-world{
+    padding-bottom: 40px;
+}
+
+.habilidades{
+    padding-top: 50px;
+}
+
+.idioma{
+    color: #99A799;
+    font-weight: bold;
+
+}
+
+.intro{
+    width: 70%;
+    margin: auto;
+}
